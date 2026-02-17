@@ -1,0 +1,21 @@
+import 'package:flutter/material.dart';
+
+import 'package:provider/provider.dart';
+
+import 'network_status_service.dart';
+
+class AppScaffold extends StatelessWidget {
+  final Widget child;
+  const AppScaffold({super.key, required this.child});
+
+  @override
+  Widget build(BuildContext context) {
+    var networkstatus = Provider.of<NetworkStatusService>(context);
+    return Scaffold(
+        body: networkstatus == NetworkStatus.online
+            ? child
+            : const Center(
+                child: Text('You are Offline'),
+              ));
+  }
+}
