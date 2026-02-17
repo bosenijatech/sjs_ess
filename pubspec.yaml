@@ -1,5 +1,5 @@
-name: AlSaqr
-description: "AlSaqr"
+name: SJS_ESS
+description: "SJS_ESS"
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 2.0.4+11
 
@@ -63,9 +63,9 @@ flutter_launcher_icons:
   android: "launcher_icon"
   ios: true
   remove_alpha_ios: true
-  image_path: "assets/images/alsaqrlogo.jpeg"
+  image_path: "assets/images/sjs_esslogo.jpeg"
   adaptive_icon_background: "#ffffff"
-  adaptive_icon_foreground: "assets/images/alsaqrlogo.jpeg"
+  adaptive_icon_foreground: "assets/images/sjs_esslogo.jpeg"
   
 flutter:
 

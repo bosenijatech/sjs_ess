@@ -116,13 +116,13 @@ class _ViewFilesState extends State<ViewFiles> {
       Directory? downloadsDir;
       if (Platform.isAndroid) {
         downloadsDir =
-            Directory('/storage/emulated/0/Download/alsaqr/files');
+            Directory('/storage/emulated/0/Download/sjs_ess/files');
         if (!await downloadsDir.exists()) {
           await downloadsDir.create(recursive: true);
         }
       } else if (Platform.isIOS) {
         downloadsDir = await getApplicationDocumentsDirectory();
-        downloadsDir = Directory('${downloadsDir.path}/alsaqr/files');
+        downloadsDir = Directory('${downloadsDir.path}/sjs_ess/files');
         if (!await downloadsDir.exists()) {
           await downloadsDir.create(recursive: true);
         }
@@ -150,7 +150,7 @@ class _ViewFilesState extends State<ViewFiles> {
 
       AppUtils.showSingleDialogPopup(
         context,
-        "✅ File saved to:\nDownload/alsaqr/files/",
+        "✅ File saved to:\nDownload/sjs_ess/files/",
         "OK",
         () => onexitpopup(file.path),
         null,

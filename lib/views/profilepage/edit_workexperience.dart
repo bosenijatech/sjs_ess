@@ -2,12 +2,12 @@
 
 // import 'package:flutter/cupertino.dart';
 // import 'package:flutter/material.dart';
-// import 'package:alsaqr/models/empinfomodel.dart';
-// import 'package:alsaqr/services/apiservice.dart';
-// import 'package:alsaqr/services/pref.dart';
-// import 'package:alsaqr/utils/app_utils.dart';
-// import 'package:alsaqr/utils/appcolor.dart';
-// import 'package:alsaqr/views/widgets/custom_button.dart';
+// import 'package:sjs_ess/models/empinfomodel.dart';
+// import 'package:sjs_ess/services/apiservice.dart';
+// import 'package:sjs_ess/services/pref.dart';
+// import 'package:sjs_ess/utils/app_utils.dart';
+// import 'package:sjs_ess/utils/appcolor.dart';
+// import 'package:sjs_ess/views/widgets/custom_button.dart';
 // import 'package:intl/intl.dart';
 
 // class EditWorkExperience extends StatefulWidget {

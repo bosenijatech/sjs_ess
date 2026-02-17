@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "29110606374",
-    "project_id": "alsaqr-f47a1",
-    "storage_bucket": "alsaqr-f47a1.firebasestorage.app"
+    "project_number": "428538160428",
+    "project_id": "sjs-ess",
+    "storage_bucket": "sjs-ess.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:29110606374:android:0d3c6e67318c954d4a64e7",
+        "mobilesdk_app_id": "1:428538160428:android:5f92b3b305c5da414cb889",
         "android_client_info": {
-          "package_name": "com.nijatech.alsaqr"
+          "package_name": "com.example.sjs_ess"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCyCTsvtnIhZV9C_XrOooCWyLGokLiJKa4"
+          "current_key": "AIzaSyBMmbftpCCVZ_uT3VfKFPBCLKALXW5zb14"
         }
       ],
       "services": {

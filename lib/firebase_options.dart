@@ -30,10 +30,7 @@ class DefaultFirebaseOptions {
           'you can reconfigure this by running the FlutterFire CLI again.',
         );
       case TargetPlatform.windows:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for windows - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return windows;
       case TargetPlatform.linux:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for linux - '
@@ -47,28 +44,37 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBS6V1X_t2lrlSTmQli0N9IZMS_2vdeA08',
-    appId: '1:29110606374:web:b11780505799f2b34a64e7',
-    messagingSenderId: '29110606374',
-    projectId: 'alsaqr-f47a1',
-    authDomain: 'alsaqr-f47a1.firebaseapp.com',
-    storageBucket: 'alsaqr-f47a1.firebasestorage.app',
+    apiKey: 'AIzaSyDg2AMSfVeFGxWbYW4sy1Oc82lpBw3-Ufk',
+    appId: '1:428538160428:web:a093e87f95b781c94cb889',
+    messagingSenderId: '428538160428',
+    projectId: 'sjs-ess',
+    authDomain: 'sjs-ess.firebaseapp.com',
+    storageBucket: 'sjs-ess.firebasestorage.app',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCyCTsvtnIhZV9C_XrOooCWyLGokLiJKa4',
-    appId: '1:29110606374:android:0d3c6e67318c954d4a64e7',
-    messagingSenderId: '29110606374',
-    projectId: 'alsaqr-f47a1',
-    storageBucket: 'alsaqr-f47a1.firebasestorage.app',
+    apiKey: 'AIzaSyBMmbftpCCVZ_uT3VfKFPBCLKALXW5zb14',
+    appId: '1:428538160428:android:5f92b3b305c5da414cb889',
+    messagingSenderId: '428538160428',
+    projectId: 'sjs-ess',
+    storageBucket: 'sjs-ess.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDxL51DXPK40JOaFH1LM8-nLMaa9RkmH-E',
-    appId: '1:29110606374:ios:bc3e1f932f4095c24a64e7',
-    messagingSenderId: '29110606374',
-    projectId: 'alsaqr-f47a1',
-    storageBucket: 'alsaqr-f47a1.firebasestorage.app',
-    iosBundleId: 'com.nijatech.alsaqr',
+    apiKey: 'AIzaSyD4Qz2zDyGVYqRj3EA__DcfPGqKrt-8bIk',
+    appId: '1:428538160428:ios:8d8473281338a18e4cb889',
+    messagingSenderId: '428538160428',
+    projectId: 'sjs-ess',
+    storageBucket: 'sjs-ess.firebasestorage.app',
+    iosBundleId: 'com.example.sjs.ess',
+  );
+
+  static const FirebaseOptions windows = FirebaseOptions(
+    apiKey: 'AIzaSyDg2AMSfVeFGxWbYW4sy1Oc82lpBw3-Ufk',
+    appId: '1:428538160428:web:7cf5e82c32cfab1c4cb889',
+    messagingSenderId: '428538160428',
+    projectId: 'sjs-ess',
+    authDomain: 'sjs-ess.firebaseapp.com',
+    storageBucket: 'sjs-ess.firebasestorage.app',
   );
 }

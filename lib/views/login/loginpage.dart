@@ -74,7 +74,7 @@ class _LoginPageState extends State<LoginPage> {
                   ),
                   padding: const EdgeInsets.all(12),
                   child: Image.asset(
-                    'assets/images/alsaqrlogo.jpeg',
+                    'assets/images/sjs_esslogo.jpeg',
                     fit: BoxFit.contain,
                   ),
                 ),

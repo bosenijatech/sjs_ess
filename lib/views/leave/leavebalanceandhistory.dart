@@ -1,8 +1,8 @@
 // import 'package:flutter/cupertino.dart';
 // import 'package:flutter/material.dart';
-// import 'package:alsaqr/utils/app_utils.dart';
-// import 'package:alsaqr/views/leave/leavebalance.dart';
-// import 'package:alsaqr/views/leave/leavehistory.dart';
+// import 'package:sjs_ess/utils/app_utils.dart';
+// import 'package:sjs_ess/views/leave/leavebalance.dart';
+// import 'package:sjs_ess/views/leave/leavehistory.dart';
 
 // class LeaveandHistoryTab extends StatefulWidget {
 //   const LeaveandHistoryTab({super.key});

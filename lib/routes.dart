@@ -1,9 +1,9 @@
-import 'package:AlSaqr/views/loanrequest/loanrequest.dart';
-import 'package:AlSaqr/views/loanrequest/loandetailsview.dart';
-import 'package:AlSaqr/views/memorequest/memorequest.dart';
-import 'package:AlSaqr/views/memorequest/memoview.dart';
-import 'package:AlSaqr/views/passportrequest/passportrequest.dart';
-import 'package:AlSaqr/views/passportrequest/passportview.dart';
+import 'package:SJS_ESS/views/loanrequest/loanrequest.dart';
+import 'package:SJS_ESS/views/loanrequest/loandetailsview.dart';
+import 'package:SJS_ESS/views/memorequest/memorequest.dart';
+import 'package:SJS_ESS/views/memorequest/memoview.dart';
+import 'package:SJS_ESS/views/passportrequest/passportrequest.dart';
+import 'package:SJS_ESS/views/passportrequest/passportview.dart';
 import 'package:flutter/material.dart';
 
 import 'routenames.dart';

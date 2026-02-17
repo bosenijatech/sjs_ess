@@ -1,4 +1,4 @@
-package com.example.alsaqr
+package com.example.sjs_ess
 
 import io.flutter.embedding.android.FlutterActivity
 

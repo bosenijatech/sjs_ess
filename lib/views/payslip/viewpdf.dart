@@ -98,13 +98,13 @@ class _ViewPdfState extends State<ViewPdf> {
 
       if (Platform.isAndroid) {
         downloadsDir =
-            Directory('/storage/emulated/0/Download/alsaqr/Payslip');
+            Directory('/storage/emulated/0/Download/sjs_ess/Payslip');
         if (!await downloadsDir.exists()) {
           await downloadsDir.create(recursive: true);
         }
       } else if (Platform.isIOS) {
         downloadsDir = await getApplicationDocumentsDirectory();
-        downloadsDir = Directory('${downloadsDir.path}/alsaqr/Payslip');
+        downloadsDir = Directory('${downloadsDir.path}/sjs_ess/Payslip');
         if (!await downloadsDir.exists()) {
           await downloadsDir.create(recursive: true);
         }
@@ -118,7 +118,7 @@ class _ViewPdfState extends State<ViewPdf> {
 
       AppUtils.showSingleDialogPopup(
         context,
-        "Saved to:\n${"Download/alsaqr/Payslip/"} Folder ",
+        "Saved to:\n${"Download/sjs_ess/Payslip/"} Folder ",
         "OK",
          () => onexitpopup(file.path),
         null,

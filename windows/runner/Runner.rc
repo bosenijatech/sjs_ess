@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "alsaqr" "\0"
+            VALUE "FileDescription", "sjs_ess" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "alsaqr" "\0"
+            VALUE "InternalName", "sjs_ess" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2026 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "alsaqr.exe" "\0"
-            VALUE "ProductName", "alsaqr" "\0"
+            VALUE "OriginalFilename", "sjs_ess.exe" "\0"
+            VALUE "ProductName", "sjs_ess" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

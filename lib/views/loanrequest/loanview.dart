@@ -1,5 +1,5 @@
 import 'dart:convert';
-import 'package:AlSaqr/views/loanrequest/loandetailsview.dart';
+import 'package:SJS_ESS/views/loanrequest/loandetailsview.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
